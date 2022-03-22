@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-primary text-center">Week 5 Todo App</h1>
+	  <h2 className="text-primary text-center">Testing nvim</h2>
       <div className="container">
         {todos.map((todo, idx) => {
           return (
